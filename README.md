@@ -1,14 +1,16 @@
 # End-to-end-Delay
 
 
-Computing end to end delay with acknowledgement
+**Computing end to end delay with acknowledgement
 
 **Name**: Siddhanth M
 
 **USN**: 1KS16CS096
 
 **Invoking the program:**
-The program should be invoked as <value in KM> -N <value> -M <value in Mbits> -S <speed in 10^8m/s> -p <processing time in milliseconds>
+ 
+<value in KM> -N <value> -M <value in Mbits> -S <speed in 10^8m/s> -p <processing time in milliseconds>
+  
   
 **Giving the input:**
 Input should be given as: python endtoendfinal.py --t1 10 --t2 12 --d1 2 --d2 1 -N 5 -M 19 -S 2 -p 1
