@@ -3,9 +3,9 @@
 
 Computing end to end delay with acknowledgement
 
-Name: Siddhanth M
+**Name**: Siddhanth M
 
-USN: 1KS16CS096
+**USN**: 1KS16CS096
 
 **Invoking the program:**
 The program should be invoked as <value in KM> -N <value> -M <value in Mbits> -S <speed in 10^8m/s> -p <processing time in milliseconds>
