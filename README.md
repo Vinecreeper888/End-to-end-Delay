@@ -1,6 +1,10 @@
 # End-to-end-Delay
+
+
 Computing end to end delay with acknowledgement
+
 Name: Siddhanth M
+
 USN: 1KS16CS096
 
 **Invoking the program:**
@@ -14,6 +18,11 @@ Input should be given as: python endtoendfinal.py --t1 10 --t2 12 --d1 2 --d2 1 
   The source sends a packet to the router which in turn directs the data packet to the destination. Only when the destination gets the first data packet, it sends an acknowledgement to the source.
   Next, the source sends the next packet of data after receiving the acknowledgement.
   If the acknowledgement is not received, then the source will not send the next packet.
+  
+  **Challenges faced**
+  --> Computing end to end delay
+  --> If N(no. of packets) is too large
+  --> Transmission delay
   
  
   
